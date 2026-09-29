@@ -14,5 +14,4 @@ A landing page for a fictional tech conference called **DevSpace**, built with p
 
 ## Project Structure
 ## Live Demo
-
-https://danamelhelou-code.github.io/devspace-conference/
+https://danamelhelou-code.github.io/conference_landing-project/
