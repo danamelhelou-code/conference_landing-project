@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <title>conference registration page</title>
+</head>
+<body>
+    <!-- start registration page -->
+    <div class="containerForm">
+     <h2 class="registration">Reserve your seat</h2>
+     <p>Fill in your details and we'll hold your spot.</p>
+     <form action="" method="get">
+        <div class="input">
+            <label for="input1" >Full name</label>
+            <input type="text" name="userName" placeholder="Dana El Helou" required id="input1" >
+        </div>
+        <div class="input">
+            <label for="input2" >Email</label>
+            <input type="email" name="email" placeholder="you@example.com" required id="input2">
+        </div>
+        <div class="input">
+            <label for="input3" >Phone</label>
+            <input type="tel" name="telephoneNum" placeholder="+1 555 000 0000" required id="input3">
+        </div>
+        <div class="input">
+            <label for="input4" >Ticket</label>
+          <select name="priceChoice"  required id="input4">
+            <option value="Basic-$49">Basic-$49</option>
+            <option value="Standard-$99">Standard-$99</option>
+            <option value="VIP-$199">VIP-$199</option>
+          </select>
+        </div>
+        <div class="end">
+            <input type="reset" value="Cancel" name="reset">
+            <input type="submit" value="Confirm reservation">
+        </div>
+        <a href="index.html" class="back">Back</a>
+     </form>
+    </div>
+  <!-- end registration page -->
+</body>
+</html>
